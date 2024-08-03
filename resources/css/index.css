@@ -2,9 +2,11 @@ html {
     font-size: 16px;
     background-color: white;
     box-sizing: border-box;
+    width: 100%;
 }
 
 body {
+    width: 100%;
     margin: 0;
 }
 
@@ -134,57 +136,122 @@ body {
 
 /* Second Page */
 
-.second-page {
-    display: inline-flex;
-}
-
-.second-page .left .left-text img {
-    padding: 2rem 1.5rem;
-}
-.second-page .left {
-    display: inline-flex;
-    width: 60%;
+.page-2 {
+    display: flex;
 }
 
 
-
-.second-page .left .left-text h1 {
-    font-family: 'Hind Vadodara';
-    font-size: 3.3rem;
-    margin: 0px 24px 24px;
-    color: rgb(66, 66, 66);
-}
-.second-page .left .left-text p {
-    font-family: 'Hind Vadodara';
-    margin: 32px 24px 24px;
-}
-.second-page .left .left-text span {
-    font-family: 'Hind Vadodara';
-    margin: 32px 24px 24px;
-}
-
-
-
-
-.second-page .container-right {
-    display: inline-flex;
+.left-side {
+    display: flex;
     flex-direction: column;
+
+    border-right: 1px solid lightgray;
+    width: 55%;
+    padding: 32px 24px;
+}
+.left-side h1 {
+    font-size: 3rem;
+    font-family: 'Hind Vadodara';
+    opacity: 0.9;
+    color: rgb(55, 55, 55);
+}
+.left-side p {
+    font-size: 1.4rem;
+    font-family: 'Hind Vadodara';
+    opacity: 0.9;
+    color: rgb(55, 55, 55)
+}
+.left-side span {
+    font-size: 1.4rem;
+    font-family: 'Hind Vadodara';
+    opacity: 0.9;
+    color: rgb(55, 55, 55)
+}
+
+
+
+
+
+
+
+.right-side {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.top {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid lightgray;
+    
+    padding: 32px;
+}
+.middle {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    border-bottom: 1px solid lightgray;
+    
+    padding: 32px;
+}
+.bottom {
+    display: flex;
+    align-items: center;
+    border-top: 1px solid lightgray;
+    
     padding-top: 32px;
 }
+.middle img {
+    padding-bottom: 32px;
+}
 
 
-.right-top  {
-    display: flex;
-    border: 1px solid lightgray;
-    padding: 16px;
+
+
+
+.top h2 , .middle h2 , .bottom h2 {
+    font-family: 'Hind Vadodara';
+    font-size: 2rem;
+    font-weight: 500;
+    color: rgb(65, 65, 65);
+    opacity: 0.95;
+    padding-left: 3rem;
 }
-.right-middle {
-    display: flex;
-    border: 1px solid lightgray;
-    padding: 16px;
+.top p , .middle p , .bottom p {
+    font-family: 'Hind Vadodara';
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: rgb(65, 65, 65);
+    opacity: 0.95;
+    padding-left: 3rem;
 }
-.right-bottom {
-    display: flex;
-    border: 1px solid lightgray;
-    padding: 16px;
+.top a , .middle a , .bottom a {
+    font-family: 'Hind Vadodara';
+    font-size: 2rem;
+    font-weight: 500;
+    text-decoration: none;
+    color: rgb(62, 129, 207);
+    opacity: 0.95;
+    padding-left: 3rem;
 }
+
+
+.top:hover {
+    background-color: lightgray;
+    margin: 3px;
+}
+.middle:hover {
+    background-color: lightgray;
+    margin: 3px;
+}
+.bottom:hover {
+    background-color: lightgray;
+    margin: 3px;
+}
+
+
+
+
+
+/* Third Page */
