@@ -290,3 +290,114 @@ body {
     color: rgb(55, 55, 55);
     opacity: 0.9;
 }
+
+
+
+/* Fourth Page */
+
+
+.page-4 {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    border-bottom: 1px solid lightgray;
+}
+
+.header2 {
+    text-align: center;
+}
+
+.left-side2 {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    padding: 32px 24px 24px 24px;
+    border-top: 1px solid lightgray;
+    border-right: 1px solid lightgray;
+}
+.right-side2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 40%;
+}
+
+.right-text2 {
+    display: flex;
+    align-items: center;
+    padding: 16px;
+    border-top: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+}
+.right-text2 img {
+    padding: 16px;
+    width: 35%;
+    height: auto;
+}
+.align2 {
+    padding: 16px;
+}
+
+.right-text2:hover {
+    background-color: lightgray;
+}
+
+
+
+/* Fourth Page Text Styles */
+
+.header2 h1 {
+    padding: 32px 0px 12px;
+    margin: 0px;
+    font-family: 'Hind Vadodara';
+    font-size: 2.4rem;
+    color: rgb(55, 55, 55);
+    opacity: 0.9;
+}
+.left-side2 h2 {
+    font-family: 'Hind Vadodara';
+    margin: 0;
+    padding: 24px 0px;
+    font-size: 1.9rem;
+    font-weight: 600;
+    color: rgb(55, 55, 55);
+    opacity: 0.9;
+}
+.left-side2 p {
+    font-family: 'Hind Vadodara';
+    font-size: 1.2rem;
+    color: rgb(55, 55, 55);
+    opacity: 0.9;
+}
+.align2 h2 {
+    font-family: 'Hind Vadodara';
+    font-size: 2rem;
+    color: rgb(55, 55, 55);
+    opacity: 0.9;
+}
+.align2 p {
+    font-family: 'Hind Vadodara';
+    font-size: 1.5rem;
+    color: rgb(55, 55, 55);
+    opacity: 0.9;
+}
+
+
+/* Footer */
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    height: 100px;
+}
+
+.footer span {
+    padding-top: 16px;
+    padding-right: 24px;
+}
+.footer p {
+    margin: 0;
+    padding-top: 16px;
+    padding-left: 24px;
+}
