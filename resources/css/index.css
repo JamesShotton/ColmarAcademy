@@ -14,399 +14,522 @@ body {
 /* Navigation Bar */
 
 
-    .navbar {
-        background-color: white;
-        min-height: 64px;
-        z-index: 5;
-    }
-
-
-    .navbar .links {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-    }
-    .navbar .links ul {
-        display: flex;
-        align-items: center;
-        list-style: none;
-        padding-right: 24px;
-    } 
-    .navbar .logo {
-        display: flex;
-        padding-left: 8px;
-    }
-
-
-    .navbar .links img {
-        width: 2.5rem;
-    }
-    .navbar .links p {
-        font-family: sans-serif;
-        font-size: 1.5rem;
-        opacity: 0.7;
-    }
-
-
-
-    .navbar a {
-        font-family: sans-serif;
-        font-size: 1.1rem;
-        font-weight: 500;
-        color: black;
-        text-decoration: none;
-        padding: 0 16px;
-    }
-    .navbar a:hover {
-        padding: 16px;
-        background-color: rgb(170, 170, 170);
-        transition: background-color 200ms linear;
-    }
-
-
-
-    /* Landing Page */
-
-    .landing {
-        display: flex;
-        width: 100%;
-        background-color: lightgray;
-    }
-
-    .landing img {
-        padding: 3rem 2rem;
-    }
-
-
-
-    .landing .landing-text {
-        display: inline-flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-
-        max-width: 600px;
-        margin-left: 24px;;
-
-        font-size: 2.2rem;
-        font-family: sans-serif;
-    }
-
-
-
-    .landing .landing-text h1 {
-        color: rgb(50, 50, 50);
-        opacity: 0.9;
-
-        font-family: 'Hind Vadodara';
-        font-weight: 700;
-        line-height: 1.25;
-
-        margin: 0;
-    }
-    .landing .landing-text p {
-        color: rgb(50, 50, 50);
-        opacity: 0.9;
-
-        font-family: 'Hind Vadodara';
-        font-weight: 600;
-
-
-    }
-
-
-    .landing .landing-text a {
-        color: white;
-        background-color: rgb(55, 55, 55);
-        text-decoration: none;
-
-        padding: 16px 0px;
-        margin: 24px;
-        width: 490px;
-        text-align: center;
-
-        font-size: 1.8rem;
-        font-family: 'Hind Vadodara';
-    }
-    .landing .landing-text a:hover {
-        background-color: rgb(65, 65, 65);
-        transition: background-color 200ms;
-    }
-
-
-
-
-    /* Second Page */
-
-
-    .page-2 {
-        display: flex;
-        width: 100%;
-    }
-
-    .left-side {
-        padding: 32px 24px;
-        max-width: 60%;
-        border-right: 1px solid lightgray;
-    }
-    .right-side {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-        padding-top: 32px;
-        padding-right: 32px;
-        padding-bottom: 32px;
-        width: 40%;
-        height: auto
-    }
-
-
-    .right-text {
-        display: flex;
-        flex-direction: row;
-        padding-bottom: 12px;
-        border-bottom: 1px solid lightgray;
-    }
-    .right-text:hover {
-        background-color: lightgray;
-    }
-    .right-text img {
-        padding: 10px 10px 10px 20px;
-        width: auto;
-        height: auto;
-    }
-
-    .align {
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        padding: 32px;
-
-        width: 65%;
-        height: auto;
-    }
-
-    /* Second Page Text Styling */
-
-    .left-side h1 {
-        font-family: 'Hind Vadodara';
-        font-size: 3rem;
-        color: rgb(55, 55, 55);
-        opacity: 0.9;
-    }
-    .left-side p {
-        font-family: 'Hind Vadodara';
-        font-size: 1.4em;
-        color: rgb(55, 55, 55);
-        opacity: 0.9;
-    }
-    .left-side span {
-        font-family: 'Hind Vadodara';
-        font-size: 1.4rem;
-        color: rgb(55, 55, 55);
-        opacity: 0.9;
-    }
-
-    .right-text h2 {
-        font-family: 'Hind Vadodara';
-        font-size: 1.7rem;
-        font-weight: 500;
-        color: rgb(55, 55, 55);
-        opacity: 0.9;
-    }
-    .right-text p {
-        font-family: 'Hind Vadodara';
-        font-size: 1.2rem;
-        color: rgb(55, 55, 55);
-        opacity: 0.9;
-    }
-    .right-text a {
-        font-family: 'Hind Vadodara';
-        font-size: 1.2rem;
-        color: rgb(66, 117, 189);
-        opacity: 0.9;
-        text-decoration: none;
-    }
-
-
-
-    /* Third Page */
-
-    .page-3 {
-        width: 100%;
-        background-color: lightgray;
-    }
-
-    .header {
-        text-align: center;
-        padding: 32px 0px;
-    }
-
-    .courses {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-wrap: wrap;
-        max-width: 100%;
-        padding-bottom: 32px;
-    }
-
-    .option {
-        flex-basis: 300px;
-        background-color: white;
-        margin: 12px 12px;
-        
-    }
-    .option-text {
-        padding: 24px;
-    }
-
-
-
-
-    /* Third Page Text Styling */
-
-    .header h1 {
-        font-family: 'Hind Vadodara';
-        font-size: 2.5rem;
-        font-weight: 700;
-        color: rgb(60, 60, 60);
-        opacity: 0.9;
-    }
-
-    .option h2 {
-        font-family: 'Hind Vadodara';
-        font-size: 1.7rem;
-        font-weight: 600;
-        color: rgb(55, 55, 55);
-        opacity: 0.9;
-    }
-    .option p {
-        font-family: 'Hind Vadodara';
-        font-size: 1.2rem;
-        color: rgb(55, 55, 55);
-        opacity: 0.9;
-    }
-    .option span {
-        font-family: 'Hind Vadodara';
-        font-size: 1.2rem;
-        color: rgb(55, 55, 55);
-        opacity: 0.9;
-    }
-
-
-
-    /* Fourth Page */
-
-
-    .page-4 {
-        display: flex;
-        justify-content: space-between;
-        width: 100%;
-        border-bottom: 1px solid lightgray;
-    }
-
-    .header2 {
-        text-align: center;
-    }
-
-    .left-side2 {
-        display: flex;
-        flex-direction: column;
-        width: 60%;
-        padding: 32px 24px 24px 24px;
-        border-top: 1px solid lightgray;
-        border-right: 1px solid lightgray;
-    }
-    .right-side2 {
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-start;
-        width: 40%;
-    }
-
-    .right-text2 {
-        display: flex;
-        align-items: center;
-        padding: 16px;
-        border-top: 1px solid lightgray;
-        border-bottom: 1px solid lightgray;
-    }
-    .right-text2 img {
-        padding: 16px;
-        width: 35%;
-        height: auto;
-    }
-    .align2 {
-        padding: 16px;
-    }
-
-    .right-text2:hover {
-        background-color: lightgray;
-    }
-
-
-
-    /* Fourth Page Text Styles */
-
-    .header2 h1 {
-        padding: 32px 0px 12px;
-        margin: 0px;
-        font-family: 'Hind Vadodara';
-        font-size: 2.4rem;
-        color: rgb(55, 55, 55);
-        opacity: 0.9;
-    }
-    .left-side2 h2 {
-        font-family: 'Hind Vadodara';
-        margin: 0;
-        padding: 24px 0px;
-        font-size: 1.9rem;
-        font-weight: 600;
-        color: rgb(55, 55, 55);
-        opacity: 0.9;
-    }
-    .left-side2 p {
-        font-family: 'Hind Vadodara';
-        font-size: 1.2rem;
-        color: rgb(55, 55, 55);
-        opacity: 0.9;
-    }
-    .align2 h2 {
-        font-family: 'Hind Vadodara';
-        font-size: 2rem;
-        color: rgb(55, 55, 55);
-        opacity: 0.9;
-    }
-    .align2 p {
-        font-family: 'Hind Vadodara';
-        font-size: 1.5rem;
-        color: rgb(55, 55, 55);
-        opacity: 0.9;
-    }
-
-
-    /* Footer */
-
-    .footer {
-        display: flex;
-        justify-content: space-between;
-        align-items: flex-start;
-        height: 100px;
-    }
-
-    .footer span {
-        padding-top: 16px;
-        padding-right: 24px;
-    }
-    .footer p {
-        margin: 0;
-        padding-top: 16px;
-        padding-left: 24px;
-    }
-
+.navbar {
+    background-color: white;
+    min-height: 64px;
+    z-index: 5;
+}
+.navbar .links {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar .links ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    padding-right: 24px;
+} 
+.navbar .logo {
+    display: flex;
+    padding-left: 8px;
+}
+.navbar .links img {
+    width: 2.5rem;
+}
+.navbar .links p {
+    font-family: sans-serif;
+    font-size: 1.5rem;
+    opacity: 0.7;
+}
+
+
+
+.navbar a {
+    font-family: sans-serif;
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: black;
+    text-decoration: none;
+    padding: 0 16px;
+}
+.navbar a:hover {
+    padding: 16px;
+    background-color: rgb(170, 170, 170);
+    transition: background-color 200ms linear;
+}
+
+
+
+/* Landing Page */
+
+.landing {
+    display: flex;
+    width: 100%;
+    background-color: lightgray;
+}
+
+.landing img {
+    padding: 3rem 2rem;
+}
+
+.landing .landing-text {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    max-width: 600px;
+    margin-left: 24px;;
+
+    font-size: 2.2rem;
+    font-family: sans-serif;
+}
+
+.landing .landing-text h1 {
+    color: rgb(50, 50, 50);
+    opacity: 0.9;
+
+    font-family: 'Hind Vadodara';
+    font-weight: 700;
+    line-height: 1.25;
+
+    margin: 0;
+}
+.landing .landing-text p {
+    color: rgb(50, 50, 50);
+    opacity: 0.9;
+
+    font-family: 'Hind Vadodara';
+    font-weight: 600;
+
+}
+
+.landing .landing-text a {
+    color: white;
+    background-color: rgb(55, 55, 55);
+    text-decoration: none;
+
+    padding: 16px 0px;
+    margin: 24px;
+    width: 490px;
+    text-align: center;
+
+    font-size: 1.8rem;
+    font-family: 'Hind Vadodara';
+}
+.landing .landing-text a:hover {
+    background-color: rgb(65, 65, 65);
+    transition: background-color 200ms;
+}
+
+/* Second Page */
+
+.page-2 {
+    display: flex;
+    width: 100%;
+}
+
+.left-side {
+    padding: 32px 24px;
+    max-width: 60%;
+    border-right: 1px solid lightgray;
+}
+.right-side {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-top: 32px;
+    padding-right: 32px;
+    padding-bottom: 32px;
+    width: 40%;
+    height: auto
+}
+
+.right-text {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 12px;
+    border-bottom: 1px solid lightgray;
+}
+.right-text:hover {
+    background-color: lightgray;
+}
+.right-text img {
+    padding: 10px 10px 10px 20px;
+    width: auto;
+    height: auto;
+}
+
+.align {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 32px;
+
+    width: 65%;
+    height: auto;
+}
+
+/* Second Page Text Styling */
+
+.left-side h1 {
+    font-family: 'Hind Vadodara';
+    font-size: 3rem;
+    color: rgb(55, 55, 55);
+    opacity: 0.9;
+}
+.left-side p {
+    font-family: 'Hind Vadodara';
+    font-size: 1.4em;
+    color: rgb(55, 55, 55);
+    opacity: 0.9;
+}
+.left-side span {
+    font-family: 'Hind Vadodara';
+    font-size: 1.4rem;
+    color: rgb(55, 55, 55);
+    opacity: 0.9;
+}
+
+.right-text h2 {
+    font-family: 'Hind Vadodara';
+    font-size: 1.7rem;
+    font-weight: 500;
+    color: rgb(55, 55, 55);
+    opacity: 0.9;
+}
+.right-text p {
+    font-family: 'Hind Vadodara';
+    font-size: 1.2rem;
+    color: rgb(55, 55, 55);
+    opacity: 0.9;
+}
+.right-text a {
+    font-family: 'Hind Vadodara';
+    font-size: 1.2rem;
+    color: rgb(66, 117, 189);
+    opacity: 0.9;
+    text-decoration: none;
+}
+
+
+
+/* Third Page */
+
+.page-3 {
+    width: 100%;
+    background-color: lightgray;
+}
+
+.header {
+    text-align: center;
+    padding: 32px 0px;
+}
+
+.courses {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 100%;
+    padding-bottom: 32px;
+}
+
+.option {
+    flex-basis: 300px;
+    background-color: white;
+    margin: 12px 12px;
+    
+}
+.option-text {
+    padding: 24px;
+}
+
+/* Third Page Text Styling */
+
+.header h1 {
+    font-family: 'Hind Vadodara';
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: rgb(60, 60, 60);
+    opacity: 0.9;
+}
+
+.option h2 {
+    font-family: 'Hind Vadodara';
+    font-size: 1.7rem;
+    font-weight: 600;
+    color: rgb(55, 55, 55);
+    opacity: 0.9;
+}
+.option p {
+    font-family: 'Hind Vadodara';
+    font-size: 1.2rem;
+    color: rgb(55, 55, 55);
+    opacity: 0.9;
+}
+.option span {
+    font-family: 'Hind Vadodara';
+    font-size: 1.2rem;
+    color: rgb(55, 55, 55);
+    opacity: 0.9;
+}
+
+/* Fourth Page */
+
+.page-4 {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    border-bottom: 1px solid lightgray;
+}
+
+.header2 {
+    text-align: center;
+}
+
+.left-side2 {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    padding: 32px 24px 24px 24px;
+    border-top: 1px solid lightgray;
+    border-right: 1px solid lightgray;
+}
+.right-side2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 40%;
+}
+
+.right-text2 {
+    display: flex;
+    align-items: center;
+    padding: 16px;
+    border-top: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+}
+.right-text2 img {
+    padding: 16px;
+    width: 35%;
+    height: auto;
+}
+.align2 {
+    padding: 16px;
+}
+
+.right-text2:hover {
+    background-color: lightgray;
+}
+
+/* Fourth Page Text Styles */
+
+.header2 h1 {
+    padding: 32px 0px 12px;
+    margin: 0px;
+    font-family: 'Hind Vadodara';
+    font-size: 2.4rem;
+    color: rgb(55, 55, 55);
+    opacity: 0.9;
+}
+.left-side2 h2 {
+    font-family: 'Hind Vadodara';
+    margin: 0;
+    padding: 24px 0px;
+    font-size: 1.9rem;
+    font-weight: 600;
+    color: rgb(55, 55, 55);
+    opacity: 0.9;
+}
+.left-side2 p {
+    font-family: 'Hind Vadodara';
+    font-size: 1.2rem;
+    color: rgb(55, 55, 55);
+    opacity: 0.9;
+}
+.align2 h2 {
+    font-family: 'Hind Vadodara';
+    font-size: 2rem;
+    color: rgb(55, 55, 55);
+    opacity: 0.9;
+}
+.align2 p {
+    font-family: 'Hind Vadodara';
+    font-size: 1.5rem;
+    color: rgb(55, 55, 55);
+    opacity: 0.9;
+}
+
+/* Footer */
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    height: 100px;
+}
+
+.footer span {
+    padding-top: 16px;
+    padding-right: 24px;
+}
+.footer p {
+    margin: 0;
+    padding-top: 16px;
+    padding-left: 24px;
+}
 
 
 /* Mobile Version */
 
+@media only screen and (max-width: 600px) {
 
+    .desktop {
+        display: none;
+    }
+
+    html {
+        margin: 0px;
+        padding: 0px;
+        font-size: 16px;
+        box-sizing: border-box;
+        overflow-x: hidden;
+        max-width: 100vw;
+        border: 2px solid gray;
+    } 
+    
+    body {
+        margin: 0px;
+        padding: 0px;
+    }
+    
+    
+    .navbar-mobile {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 64px;
+    }
+    
+    .navbar-mobile img {
+        padding: 16px;
+    }
+    .navbar-mobile a:hover {
+        background-color: lightgray;
+    }
+    
+    
+    .landing-mobile-align img {
+        max-width: 100%;
+        height: auto
+    }
+    
+    .landing-mobile-align {
+        display: flex;
+        flex-direction: column;
+        background-color: lightgray;
+        font-family: 'Hind Vadodara';
+    }
+    
+    .landing-mobile-align h1 {
+        color: rgb(55, 55, 55);
+        opacity: 0.9;
+        font-size: 3rem;
+        margin: 16px;
+    }
+    .landing-mobile-align h3 {
+        color: rgb(55, 55, 55);
+        opacity: 0.9;
+        font-size: 1.5rem;
+        margin: 16px;
+    }
+    
+    .landing-mobile-align a {
+        text-decoration: none;
+        text-align: center;
+        padding: 16px 48px;
+        margin: 24px 16px 32px 16px;
+        color: white;
+        background-color: rgb(55, 55, 55);
+    }
+    .landing-mobile-align a:hover {
+        background-color: rgb(70, 70, 70);
+    }
+    
+    .courses-mobile {
+        font-family: 'Hind Vadodara';
+        display: flex;
+        flex-direction: column;
+        margin: 16px;
+        border-bottom: 1px solid lightgray;
+    }
+    
+    .courses-mobile-text {
+        padding: 16px 16px 32px;
+    }
+    
+    .courses-mobile-text h2 {
+        color: rgb(55, 55, 55);
+        opacity: 0.9;
+        font-size: 1.3rem;
+        
+    }
+    .courses-mobile-text p {
+        color: rgb(55, 55, 55);
+        opacity: 0.9;
+        font-size: 1rem;
+    }
+    .courses-mobile-text a {
+        color: blue;
+        text-decoration: none;
+    }
+    
+    
+    .learning-mobile {
+        display: flex;
+        flex-direction: column;
+        padding: 16px 16px 24px;
+        font-family: 'Hind Vadodara';
+        border-bottom: 1px solid lightgray;
+    }
+    .learning-mobile h1 {
+        color: rgb(55, 55, 55);
+        opacity: 0.9;
+        font-size: 2.5rem;
+        text-align: center;
+        margin-bottom: 32px;
+    }
+    
+    .learning-mobile h2 {
+        color: rgb(57, 57, 57);
+        opacity: 0.9;
+        text-align: center;
+        background-color: lightgray;
+        text-align: left;
+        padding: 24px;
+        margin: 8px;
+    }
+    
+    
+    .thesis-mobile {
+        display: flex;
+        flex-direction: column;
+        font-family: 'Hind Vadodara';
+    }
+    .thesis-mobile h1 {
+        margin: 32px 0px;
+        text-align: center;
+        color: rgb(55, 55, 55);
+        opacity: 0.95;
+        font-size: 2.5rem;
+    }
+    .thesis-mobile video {
+        padding-bottom: 16px;
+    }
+    .thesis-mobile p {
+        margin: 0px;
+        padding: 16px;
+    }
+}
