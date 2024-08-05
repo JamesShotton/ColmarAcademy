@@ -14,8 +14,6 @@ body {
 /* Navigation Bar */
 
 
-@media screen and (min-width: 1500px) and (max-width: 2000px) {
-    
     .navbar {
         background-color: white;
         min-height: 64px;
@@ -406,16 +404,9 @@ body {
         padding-top: 16px;
         padding-left: 24px;
     }
-}
+
 
 
 /* Mobile Version */
 
 
-.links ul {
-    display: none;
-    
-}
-.logo p {
-    display: none;
-}
